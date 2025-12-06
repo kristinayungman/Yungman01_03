@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="411dp"
+    android:layout_height="757dp"
+    tools:context=".Second_activity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:background="@drawable/arrow"
+        android:contentDescription="@string/naz" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="@string/naz"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/blue"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:text="@string/raschet"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="43dp"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textColor="@color/pink"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="519dp"
+        android:layout_marginTop="41dp"
+        android:background="@color/lightblue"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="373dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+            <FrameLayout
+                android:layout_width="371dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text1"
+                android:layout_marginLeft="100dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:layout_width="378dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/white"
+                android:padding="12dp"
+                android:entries="@array/types" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="161dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="145dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editMeters"
+                android:layout_width="161dp"
+                android:layout_height="48dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/white"
+                android:hint="@string/kolvo"
+                android:inputType="numberDecimal"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRaschet"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/blue"
+            android:background="@drawable/button"
+            android:text="@string/Reg"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="161dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="145dp"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="161dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/white" />
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:textColor="@color/black"
+                android:text="@string/Result"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="7.86dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

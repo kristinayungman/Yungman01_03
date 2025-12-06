@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">01_03</string>
+    <string name="reg">Регистрация</string>
+    <string name="vhod">Войти</string>
+    <string name="text">Введите ваш логин и пароль</string>
+    <string name="login">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="raschet">Расчет площади</string>
+    <string name="kolvo">Введите кол-во метров</string>
+    <string name="Result">результат</string>
+    <string name="Reg">Рассчитать</string>
+    <string name="naz">на главное меню</string>
+    <string name="rezras">Результат расчета</string>
+    <string name="kolvo2">кол-во метров</string>
+    <string name="text1">1. 1-о комнатная квартира</string>
+    <string-array name="types">
+        <item>1-комнатная</item>
+        <item>2-комнатная</item>
+        <item>3-комнатная</item>
+        <item>Студия</item>
+    </string-array>
+</resources>
